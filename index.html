@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Secret For You</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="entrance">
+
+        <div class="content">
+
+            <p class="tiny-text">A PRIVATE EXPERIENCE</p>
+
+            <h1>Before you enter...</h1>
+
+            <p class="subtitle">
+                There is one thing you must remember.
+            </p>
+
+            <div class="lock-symbol">🔐</div>
+
+            <p class="question">
+                Our first anniversary?
+            </p>
+
+            <p class="format">DDMMYYYY</p>
+
+            <input
+                type="text"
+                id="answer"
+                placeholder="Enter the date..."
+                maxlength="8"
+                autocomplete="off"
+            >
+
+            <button id="unlockButton">
+                <span>✦</span> UNLOCK <span>✦</span>
+            </button>
+
+            <p id="message"></p>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
